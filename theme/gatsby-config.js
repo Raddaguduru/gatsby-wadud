@@ -3,7 +3,7 @@ module.exports = (themeOptions) => {
   const contentPath      = themeOptions.contentPath || 'content';
   const manifest         = themeOptions.manifest ? themeOptions.manifest : {
     name: `nehalem - A Gatsby theme`,
-    short_name: `nehalem`,
+    short_name: `voluntas`,
     start_url: `/`,
     background_color: `#a4cbb8`,
     theme_color: `#a4cbb8`,
@@ -13,15 +13,15 @@ module.exports = (themeOptions) => {
 
   return {
     siteMetadata: {
-      title: `nehalem`,
-      siteUrl: `https://nehalem.netlify.com`,
-      description: `A Gatsby theme for %TOPICS%`,
+      title: `voluntas`,
+      siteUrl: `https://voluntas.netlify.com`,
+      description: `About %TOPICS%`,
       topics: [
-        `bloggers`,
-        `geeks`,
-        `nerds`,
-        `people`,
-        `everyone`
+        `Fitness`,
+        `Technology`,
+        `Animation`,
+        `Philosophy`,
+        `Everything`
       ],
       menu: [
         {
@@ -29,7 +29,19 @@ module.exports = (themeOptions) => {
           path: '/'
         },
         {
-          name: 'Example',
+          name: 'Fitness',
+          path: '/page'
+        },
+        {
+          name: 'Technology',
+          path: '/page'
+        },
+        {
+          name: 'Animation',
+          path: '/page'
+        },
+        {
+          name: 'Philosophy',
           path: '/page'
         },
       ],
@@ -45,17 +57,17 @@ module.exports = (themeOptions) => {
       ],
       search: true,
       author: {
-        name: `nehalem`,
-        description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
-        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a 
+        name: `voluntas`,
+        description: `I'm <strong>voluntas</strong>, a Gatsby theme by
+        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a
         <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
         social: {
           facebook: ``,
-          twitter: `https://twitter.com/nehalist`,
-          linkedin: `https://www.linkedin.com/in/kevin-hirczy-7a9377106/`,
+          twitter: '',
+          linkedin: `https://www.linkedin.com/`,
           instagram: ``,
           youtube: ``,
-          github: `https://github.com/nehalist`,
+          github: `https://github.com/Raddaguduru`,
           twitch: ``
         }
       }
