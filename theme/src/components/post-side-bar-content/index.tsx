@@ -7,8 +7,8 @@ import Theme from "../../styles/theme";
 const LatestPosts = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 30px;
-  width: 310px;
+  grid-gap: 10px;
+  width: 193px;
 
   @media (max-width: ${Theme.breakpoints.md}) {
     grid-template-columns: 1fr 1fr;
@@ -19,7 +19,7 @@ const LatestPosts = styled.div`
   }
 `;
 
-const PageSidebarContent: FunctionComponent = () => {
+const PostSidebarContent: FunctionComponent = () => {
   const latestPosts = useStaticQuery(graphql`
     query {
       posts: allMarkdownRemark(
@@ -39,7 +39,7 @@ const PageSidebarContent: FunctionComponent = () => {
               excerpt
               featuredImage {
                 childImageSharp {
-                  fixed(width: 310, height: 100) {
+                  fixed(width: 193, height: 100) {
                     ...GatsbyImageSharpFixed
                   }
                 }
@@ -54,7 +54,7 @@ const PageSidebarContent: FunctionComponent = () => {
 
   return (
     <>
-      <h3>Latest posts</h3>
+      <h3>You may also like</h3>
       <LatestPosts>
         {posts.map((post, index) => (
           <Card
@@ -77,4 +77,4 @@ const PageSidebarContent: FunctionComponent = () => {
   );
 };
 
-export default PageSidebarContent;
+export default PostSidebarContent;

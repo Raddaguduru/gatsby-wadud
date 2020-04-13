@@ -11,6 +11,7 @@ import {graphql, Link} from "gatsby";
 import slugify from "slugify";
 import Bio from "../components/bio";
 import Comments from "../components/comments";
+import PostSidebarContent from "../components/post-side-bar-content";
 import SEO from "../components/seo";
 import {FaAlignJustify, FaTimes} from "react-icons/fa";
 
@@ -28,11 +29,12 @@ const PostContainer = styled(Container)`
   padding: 0 !important;
 `;
 
+//225 lefttside
 const LeftSidebar = styled.div<{ show?: boolean }>`
-  min-width: 255px;
-  max-width: 225px;
+  min-width: 193.333px;
+  max-width: 193.333px;
   transition: opacity .5s, z-index .5s;
-
+  margin:0px 30px 30px 0px;
   @media (max-width: ${Theme.breakpoints.xl}) {
     position: fixed;
     opacity: ${props => props.show ? 1 : 0};
@@ -46,6 +48,7 @@ const LeftSidebar = styled.div<{ show?: boolean }>`
   }
 `;
 
+//1035 PostContent
 const PostContent = styled.div`
   margin-top: -5px;
   border-right: 1px #e5eff5 solid;
@@ -53,7 +56,7 @@ const PostContent = styled.div`
   background-color: #fff;
   box-shadow: 0 0 3px rgba(0, 0, 0, .03), 0 3px 46px rgba(0, 0, 0, .1);
   z-index: 10;
-  width: 1035px;
+  width: 773.333px;
   max-width: 100%;
 
   li > a,
@@ -115,11 +118,33 @@ const PostContent = styled.div`
     }
   }
 `;
+const RightSidebar = styled.aside`
+min-width: 193.333px;
+max-width: 193.333px;
+transition: opacity .5s, z-index .5s;
+padding: 20px 0px;
+
+@media (max-width: ${Theme.breakpoints.xl}) {
+  position: fixed;
+  opacity: ${props => props.show ? 1 : 0};
+  z-index: ${props => props.show ? 1000 : -1};
+  background-color: #fff;
+  width: 100% !important;
+  max-width: 100%;
+  padding: 20 0px;
+  margin-top: -5px;
+  height: calc(100vh - 70px);
+`;
+const LatestWrapper = styled.div`
+  position: sticky;
+  top: 70px;
+  padding: 5px 0 25px 30px;
+`;
 
 const TocWrapper = styled.div`
   position: sticky;
   top: 70px;
-  padding: 40px 30px 40px 0;
+  padding: 30px 0px 15px 0;
 `;
 
 const PostHeader = styled.header`
@@ -257,6 +282,7 @@ const PostTemplate: FunctionComponent<PostTemplateProps> = ({data, location}) =>
             </ToggleTocButton>
         </>
         }
+
         <PostContent>
           <article className={`post`} ref={readingProgressRef}>
             <PostHeader>
@@ -272,6 +298,7 @@ const PostTemplate: FunctionComponent<PostTemplateProps> = ({data, location}) =>
             <FeaturedImage sizes={post.frontmatter.featuredImage.childImageSharp.sizes}/>
             }
             <StyledPost dangerouslySetInnerHTML={{__html: post.html}} className={`post`}/>
+
             <PostFooter>
               <p>
                 Published under&nbsp;
@@ -293,6 +320,11 @@ const PostTemplate: FunctionComponent<PostTemplateProps> = ({data, location}) =>
             </PostFooter>
           </article>
         </PostContent>
+        <RightSidebar>
+          <LatestWrapper>
+            <PostSidebarContent />
+          </LatestWrapper>
+        </RightSidebar>
       </PostContainer>
       <PostAddition>
         <PostAdditionContent>

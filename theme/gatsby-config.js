@@ -2,11 +2,11 @@ module.exports = (themeOptions) => {
   const loadDefaultPages = themeOptions.loadDefaultPages !== undefined ? themeOptions.loadDefaultPages : true;
   const contentPath      = themeOptions.contentPath || 'content';
   const manifest         = themeOptions.manifest ? themeOptions.manifest : {
-    name: `nehalem - A Gatsby theme`,
+    name: `voluntas`,
     short_name: `voluntas`,
     start_url: `/`,
-    background_color: `#a4cbb8`,
-    theme_color: `#a4cbb8`,
+    background_color: `31404e`,
+    theme_color: `#31404e`,
     display: `minimal-ui`,
     icon: `${__dirname}/assets/nehalist-gatsby.png`
   };
@@ -30,7 +30,7 @@ module.exports = (themeOptions) => {
         },
         {
           name: 'Fitness',
-          path: '/page'
+          path: '/tag/fitness'
         },
         {
           name: 'Technology',
