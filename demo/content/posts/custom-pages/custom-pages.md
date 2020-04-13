@@ -1,7 +1,7 @@
 ---
 title: "Creating custom pages"
 path: "/custom-pages"
-tags: ["Programming"]
+tags: ["TypeScript"]
 featuredImage: "./cover.jpg"
 excerpt: Creating custom pages is easy in Nehalem - let's take a brief look.
 created: 2019-07-23

@@ -64,7 +64,7 @@ module.exports = (themeOptions) => {
         social: {
           facebook: ``,
           twitter: '',
-          linkedin: `https://www.linkedin.com/`,
+          linkedin: `www.linkedin.com/in/raddaguduru`,
           instagram: ``,
           youtube: ``,
           github: `https://github.com/Raddaguduru`,
