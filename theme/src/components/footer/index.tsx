@@ -1,6 +1,7 @@
 import React, {FunctionComponent} from "react";
 import {MenuItem} from "../../utils/models";
 import {Copyright, DesignBy, FooterContainer, FooterMenuItem, FooterMenuLink, StyledFooter, StyledNav} from "./style";
+import {SocialChannelList} from "/social-channel-list/index";
 
 interface FooterProps {
   menu: MenuItem[];
@@ -29,7 +30,7 @@ const Footer: FunctionComponent<FooterProps> = ({menu, owner}) => (
           <strong>{owner}</strong>&nbsp;&copy; {new Date().getFullYear()}
         </Copyright>
         <DesignBy>
-          Theme by <a href={`https://nehalist.io`} target={`_blank`} rel={`noopener`}>nehalist.io</a>
+          All rights reserved
         </DesignBy>
       </div>
     </FooterContainer>

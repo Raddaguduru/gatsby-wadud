@@ -54,7 +54,7 @@ const PageSidebarContent: FunctionComponent = () => {
 
   return (
     <>
-      <h3>Latest posts</h3>
+      <h3 align={'center'} >Latest posts</h3>
       <LatestPosts>
         {posts.map((post, index) => (
           <Card

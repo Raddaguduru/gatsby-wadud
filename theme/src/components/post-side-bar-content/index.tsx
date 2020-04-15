@@ -19,6 +19,11 @@ const LatestPosts = styled.div`
   }
 `;
 
+export const RelevantTitle = styled.div`
+width: 193px;
+
+`;
+
 const PostSidebarContent: FunctionComponent = () => {
   const latestPosts = useStaticQuery(graphql`
     query {
@@ -54,7 +59,9 @@ const PostSidebarContent: FunctionComponent = () => {
 
   return (
     <>
-      <h3>You may also like</h3>
+<RelevantTitle>
+<h3 align={'center'}>You may also like</h3>
+</RelevantTitle>
       <LatestPosts>
         {posts.map((post, index) => (
           <Card

@@ -2,8 +2,8 @@ module.exports = (themeOptions) => {
   const loadDefaultPages = themeOptions.loadDefaultPages !== undefined ? themeOptions.loadDefaultPages : true;
   const contentPath      = themeOptions.contentPath || 'content';
   const manifest         = themeOptions.manifest ? themeOptions.manifest : {
-    name: `voluntas`,
-    short_name: `voluntas`,
+    name: `Voluntas`,
+    short_name: `Voluntas`,
     start_url: `/`,
     background_color: `31404e`,
     theme_color: `#31404e`,
@@ -13,15 +13,15 @@ module.exports = (themeOptions) => {
 
   return {
     siteMetadata: {
-      title: `voluntas`,
+      title: `Voluntas`,
       siteUrl: `https://voluntas.netlify.com`,
       description: `About %TOPICS%`,
       topics: [
         `Fitness`,
-        `Technology`,
-        `Animation`,
-        `Philosophy`,
-        `Everything`
+        `Linux`,
+        `Science`,
+        `Programming`,
+        `Life`
       ],
       menu: [
         {
@@ -33,16 +33,12 @@ module.exports = (themeOptions) => {
           path: '/tag/fitness'
         },
         {
-          name: 'Technology',
-          path: '/page'
+          name: 'About',
+          path: '/about'
         },
         {
-          name: 'Animation',
-          path: '/page'
-        },
-        {
-          name: 'Philosophy',
-          path: '/page'
+          name: 'Contact',
+          path: '/404'
         },
       ],
       footerMenu: [
@@ -57,15 +53,14 @@ module.exports = (themeOptions) => {
       ],
       search: true,
       author: {
-        name: `voluntas`,
-        description: `I'm <strong>voluntas</strong>, a Gatsby theme by
-        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+        name: `Voluntas`,
+        description: `I'm <strong>Ravi</strong>. I like fitness and tech, so I decided to merge the two into voluntas.
+        Feel free to follow me on my social media or go through my repository.`,
         social: {
           facebook: ``,
           twitter: '',
-          linkedin: `www.linkedin.com/in/raddaguduru`,
-          instagram: ``,
+          linkedin: `https://www.linkedin.com/in/raddaguduru`,
+          instagram: `https://www.instagram.com/rawveefitness`,
           youtube: ``,
           github: `https://github.com/Raddaguduru`,
           twitch: ``
@@ -200,6 +195,7 @@ module.exports = (themeOptions) => {
               `,
               output: `/rss.xml`,
               title: `RSS Feed`
+
             }
           ]
         }

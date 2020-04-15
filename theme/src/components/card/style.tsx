@@ -27,6 +27,8 @@ export const StyledArticle = styled.article`
   @media (max-width: ${Theme.breakpoints.sm}) {
     grid-area: unset !important;
   }
+
+  
 `;
 
 export const FeaturedImage = styled(Img)<Pick<CardProps, 'halfImage'>>`
@@ -39,7 +41,7 @@ export const FeaturedImage = styled(Img)<Pick<CardProps, 'halfImage'>>`
     width: 50%;
     float: left;
     margin-right: 30px;
-    height: 320px;
+    height: 190px;
     border-bottom-left-radius: 3px;
 
     @media (max-width: ${Theme.breakpoints.sm}) {

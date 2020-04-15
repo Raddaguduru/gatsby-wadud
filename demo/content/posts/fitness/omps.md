@@ -30,12 +30,12 @@ Optimal MPS has been found to be reached when eating meal frequency is around 4�
 
 ## Stimulating MPS
 
-How much protein is needed to stimulate MPS? A [study¹][https://physoc.onlinelibrary.wiley.com/doi/full/10.1113/jphysiol.2012.244897] from the University of Birmingham looked into MPS response rates in men advised to intake either 10, 20, or 40 grams of whey protein immediately following resistance training. The results found were:
+How much protein is needed to stimulate MPS? A [study¹](https://physoc.onlinelibrary.wiley.com/doi/full/10.1113/jphysiol.2012.244897) from the University of Birmingham looked into MPS response rates in men advised to intake either 10, 20, or 40 grams of whey protein immediately following resistance training. The results found were:
 A 10-gram dose of whey protein had no effect on MPS.
 A 20-gram dose increased the MPS by 49 percent.
 A 40-gram dose increased the MPS by 56 percent but also caused increased accumulation of urea.
 
-While the results show that 20g of protein is optimal for MPS , this is not the entirely true. The study had a limitation of only 80 grams of protein for a 12 hour window. This amount is less than 1g/kg of body mass , which is "well below the amount necessary to maximize muscle protein balance in resistance trained individuals who served in the study". A recent [study²][https://jissn.biomedcentral.com/articles/10.1186/s12970-018-0215-1] from Brad Schoenfeld and Alan Aragon looked into the how much protein can the body use in one meal and also what that implies for distribution of protein. They built upon the study from the University of Birmingham and other studies to come up with a better conclusion . Their results concluded that 1.6–2.2 g/kg/day were adequate enough to maximize MPS based on what is currently known. This means splitting that 1.6–2.2 g/kg/per day into 4 meals would constitute to .4-.55 g/kg/ per meal.
+While the results show that 20g of protein is optimal for MPS , this is not the entirely true. The study had a limitation of only 80 grams of protein for a 12 hour window. This amount is less than 1g/kg of body mass , which is "well below the amount necessary to maximize muscle protein balance in resistance trained individuals who served in the study". A recent [study²](https://jissn.biomedcentral.com/articles/10.1186/s12970-018-0215-1) from Brad Schoenfeld and Alan Aragon looked into the how much protein can the body use in one meal and also what that implies for distribution of protein. They built upon the study from the University of Birmingham and other studies to come up with a better conclusion . Their results concluded that 1.6–2.2 g/kg/day were adequate enough to maximize MPS based on what is currently known. This means splitting that 1.6–2.2 g/kg/per day into 4 meals would constitute to .4-.55 g/kg/ per meal.
 
 ## Overview
 

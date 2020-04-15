@@ -36,7 +36,6 @@ const PageContainer = styled(Container)`
 
 const PageSidebar = styled.aside`
   margin-left: 50px;
-
   @media (max-width: ${Theme.breakpoints.md}) {
     margin-left: 0;
   }

@@ -27,17 +27,19 @@ grid-template-columns: minmax(0, 1fr);
     grid-template-columns: 1fr;
    }
 `;
+//grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 
 //  grid-template-areas: "latest latest" ". .";
 const PostsContainer = styled(Grid)`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(3, 386.666px );
+  grid-template-rows: repeat(2,500px);
   grid-template-areas: "latest latest latest ";
   grid-gap: 2rem;
   width: 100%;
-  margin-left: 0;
-  margin-right: 0;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
  @media (max-width: ${Theme.breakpoints.sm}) {
    display: block;
    padding: 0;
@@ -68,13 +70,14 @@ const ArchiveLinkWrapper = styled.div`
 
 const ArchiveLink = styled(Link)`
   font-size: .8em;
-  padding: 10px;
+  color: #fff ;
+  padding: 10px 10px 10px 10px;
   border-radius: .3em;
   transition: background-color .5s;
-  background-color: #f2f2f2;
+  background-color: #31404e;
 
   &:hover {
-    background-color: #e6e6e6;
+    background-color: #485e72;
   }
 `;
 

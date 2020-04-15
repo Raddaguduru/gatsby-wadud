@@ -2,9 +2,9 @@ import styled from "styled-components";
 import Theme from "../../styles/theme";
 import {Link} from "gatsby";
 
+//  border-top: 1px #e5eff5 solid;
 export const TagWrapper = styled.div`
   background-color: #fff;
-  border-top: 1px #e5eff5 solid;
   border-bottom: 1px #e5eff5 solid;
   margin-bottom: 30px;
 
