@@ -1,7 +1,7 @@
 ---
 title: "Optimizing Muscle Protein Synthesis"
-path: "/lipsum"
-tags: ["Fitness"]
+path: "/optimal-aesthetics/omps"
+tags: ["Optimal-Aesthetics"]
 featuredImage: "./clock.jpg"
 excerpt: How often you should eat to gain the most muscle.
 created: 2020-04-12

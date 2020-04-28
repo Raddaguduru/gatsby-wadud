@@ -1,32 +1,24 @@
-- name: Open Source
+- name: Nutrition
   color: "#4caf50"
   icon: ./assets/images/opensource.svg
   featured: true
-- name: Linux
+- name: Supplements
   color: "#263238"
   icon: ./assets/images/linux.svg
   featured: true
-- name: Terminal
+- name: Reviews
   color: "#34495e"
   icon: ./assets/images/terminal.png
   featured: true
-- name: TypeScript
+- name: Training
   color: "#007acc"
   icon: ./assets/images/typescript.svg
   featured: true
-- name: Gatsby
-  color: "#663399"
-  icon: ./assets/images/gatsby.png
-  featured: true
-- name: Theme
-  color: "#00ffee"
-  icon: ./assets/images/logo.png
-  featured: true
-- name: Fitness
+- name: Concepts
   color: "#546A69"
   icon: ./assets/images/barbel.svg
   featured: true
-# - name: Anime
-#   color: "#4e3132"
-#   icon: ./assets/images/anime.png
-#   featured: true
+- name: Mentality
+  color: "#546A69"
+  icon: ./assets/images/barbel.svg
+  featured: true

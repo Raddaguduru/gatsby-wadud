@@ -44,3 +44,21 @@ export const Description = styled.h2`
 export const StyledTopics = styled(Typed)`
   border-bottom: 3px #000 solid;
 `;
+
+export const CoachingButton = styled.a`
+  background-color: ${Theme.layout.primaryColor};
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 0px 1px #e6e6e6, 0 2px 4px #e6e6e6;
+  display: block;
+  padding: 10px 35px;
+  font-size: 1.0em;
+  text-align: center;
+  margin: 30px 0;
+  transition: .5s all;
+  &:hover {
+    background-color: #949494;
+    transform: translate3d(0, -5px, 0);
+    box-shadow: 0 0px 1px #ccc, 0 4px 4px #ccc;
+  }
+`;

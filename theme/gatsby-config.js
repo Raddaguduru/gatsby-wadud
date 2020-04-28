@@ -17,28 +17,28 @@ module.exports = (themeOptions) => {
       siteUrl: `https://voluntas.netlify.com`,
       description: `About %TOPICS%`,
       topics: [
-        `Fitness`,
-        `Linux`,
+        `Nutrition`,
+        `Supplements`,
         `Science`,
-        `Programming`,
-        `Life`
+        `Training`,
+        `Health`
       ],
       menu: [
         {
-          name: 'Home',
+          name: 'HOME',
           path: '/'
         },
         {
-          name: 'Fitness',
-          path: '/tag/fitness'
+          name: 'COACHING',
+          path: '/coaching'
         },
         {
-          name: 'About',
+          name: 'ABOUT',
           path: '/about'
         },
         {
-          name: 'Contact',
-          path: '/404'
+          name: 'CONTACT',
+          path: '/contact'
         },
       ],
       footerMenu: [

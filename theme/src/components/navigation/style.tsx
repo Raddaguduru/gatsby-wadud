@@ -60,7 +60,7 @@ export const NavLink = styled(Link)`
   opacity: .8;
   padding: 16px;
   transition: opacity .5s;
-
+  font-weight:400px;
   &:hover {
     opacity: 1;
   }

@@ -1,6 +1,6 @@
 import React, {FunctionComponent} from "react";
 import StyledNavigation from "../navigation";
-import {Description, StyledHeader, StyledTopics, Title, TitleWrapper} from "./style";
+import {Description, StyledHeader, StyledTopics, Title, TitleWrapper,CoachingButton} from "./style";
 import reactStringReplace from 'react-string-replace';
 import {MenuItem} from "../../utils/models";
 
@@ -37,6 +37,14 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
         <Description>
           {description}
         </Description>
+        <CoachingButton
+          href={`/coaching`}
+          target={`_blank`}
+          //rel={`noopener`}
+          aria-label={`get coached`}
+        >
+          COACHING
+        </CoachingButton>
       </TitleWrapper>
     </StyledHeader>
   );

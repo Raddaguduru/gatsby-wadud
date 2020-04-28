@@ -6,14 +6,14 @@ import {Link} from "gatsby";
 export const TagWrapper = styled.div`
   background-color: #fff;
   border-bottom: 1px #e5eff5 solid;
+  border-top: 1px #e5eff5 solid;
   margin-bottom: 30px;
 
 `;
 export const TagContainer = styled.section`
   background-color: #fff;
-  padding: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
 `;
 
