@@ -5,9 +5,7 @@ import styled from "styled-components";
 import Theme from "../styles/theme";
 import SEO from "../components/seo";
 
-interface ContactPageProps {
-  location: Location;
-}
+
 
 //  flex-wrap: wrap;
 const Intro = styled.section`
@@ -247,7 +245,6 @@ const handleSubmit = (e) => {
 return(
   <Layout bigHeader={false}>
     <SEO
-      location={location}
       title={`Contact`}
     />
   <Intro>
