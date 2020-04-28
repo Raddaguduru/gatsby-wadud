@@ -5,7 +5,9 @@ import styled from "styled-components";
 import Theme from "../styles/theme";
 import SEO from "../components/seo";
 
-
+interface ContactPageProps {
+  location: Location;
+}
 
 //  flex-wrap: wrap;
 const Intro = styled.section`
@@ -220,7 +222,7 @@ function encode(data) {
     .join('&')
 }
 
-export default function Contact() {
+const ContactPage: FunctionComponent<ContactProps> = ({location}) => {
   const [state, setState] = React.useState({})
 
   const handleChange = (e) => {
@@ -242,9 +244,11 @@ const handleSubmit = (e) => {
       .catch((error) => alert(error))
   }
 
+
 return(
   <Layout bigHeader={false}>
     <SEO
+      location={location}
       title={`Contact`}
     />
   <Intro>
@@ -313,5 +317,6 @@ return(
     </ContactForm>
 
 </Layout>
-)
+);
 };
+export default ContactPage;
