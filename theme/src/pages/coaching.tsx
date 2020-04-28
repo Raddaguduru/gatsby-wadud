@@ -39,7 +39,7 @@ const Paragraph = styled.p`
   opacity:.7;
   line-height:2em;
 `;
-const CoachingPage: FunctionComponent<AboutProps> = ({location}) => (
+const CoachingPage: FunctionComponent<CoachingProps> = ({location}) => (
   <Layout bigHeader={false}>
     <SEO
       location={location}
